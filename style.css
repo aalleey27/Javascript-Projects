@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.container-head {
+    width: 100vw;
+    height: 15vh;
+    background-color: bisque;
+
+}
+
+.text-area {
+    text-align: center;
+    padding: 20px;
+}
+
+.container-main {
+    margin-top: 5vw;
+    transition: ease-in;
+
+}
+
+.container-main::placeholder {
+    text-align: center;
+}
+
+.input-group {
+    height: 10vh;
+}
+
+.btn-closed {
+    position: absolute;
+    right: 0;
+    background-color: red;
+    padding: 10px 5px;
+    width: 5vw;
+    height: 2vh;
+}
+#time {
+    font-size: 2vw;
+    color: blue;
+    position: absolute;
+    right: 10vw;
+}
